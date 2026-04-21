@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=B0 Pin=LS-1
+Removed Pin From Net: NetName=GND Pin=LS-2
+Removed Pin From Net: NetName=D0 Pin=U2-15
+Change Component Comment : Designator=X1 Old Comment=4Mhz New Comment=20Mhz
+Added Component: Designator=Q1(QTO-92)
+Add component (AddParameter): Name = "Value"; Value = "C1815"; VariantName = "[No Variations]"
+Added Component: Designator=R2(R1/4W)
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=B0 Pin=R2-1
+Added Pin To Net: NetName=C0 Pin=U2-15
+Added Pin To Net: NetName=D0 Pin=U2-19
+Added Pin To Net: NetName=D1 Pin=U2-20
+Added Pin To Net: NetName=+5 Pin=LS-2
+Added Net: Name=+5
+Added Pin To Net: NetName=NetLS_1 Pin=LS-1
+Added Pin To Net: NetName=NetLS_1 Pin=Q1-2
+Added Net: Name=NetLS_1
+Added Pin To Net: NetName=NetQ1_3 Pin=Q1-3
+Added Pin To Net: NetName=NetQ1_3 Pin=R2-2
+Added Net: Name=NetQ1_3
+Added Member To Class: ClassName=btl Member=Component Q1 C1815
+Added Member To Class: ClassName=btl Member=Component R2 470
+Added Rule: Name=Schematic Supply Nets_3
